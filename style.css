@@ -1,10 +1,32 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background-image: url(linedpaper.png);
+  background-image: url(RM-1278-2T.jpg);
+  background-size: 100%;
   background-repeat: repeat;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+h1 {
+ color: teal;
+ font-size: 3em;
+}
+h4 {
+	color: teal;
+}	
+#disclaimer {
+	color: red;
+	font-size: 12px; 
+}
+.extra {
+	border-color: blue;
+border-style: groove;	
+}
+img {
+	width: 300px;
+	text-align: center;
+	border-color: teal;
+	border-style: double;
 }
