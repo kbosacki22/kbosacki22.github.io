@@ -1,0 +1,60 @@
+body {
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background-color: rgb(236, 242, 238);
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+h1 {
+ color: white;
+ font-size: 3em;
+ text-align: center;
+ font-family: 'Amaranth', sans-serif;
+}
+li{
+	font-size: .9em;
+}
+p{
+	text-align: center;
+}
+
+.navbar-header, .container-fluid, .active, .navbar-nav{
+	background-color: white;
+	font-family: sans-serif;
+}
+
+.jumbotron{
+	background-image: url(weddinglandscape.jpg);
+	font-family: 'Amaranth', sans-serif;
+	font-style:italic;
+	color: white;
+	border-style: none;
+	background-size: 100%;
+	background-position: center;
+}
+	@media{
+	 min-height: @screen-sm-max { }
+	  }
+
+.btn{
+background-color:black;
+border-color: black;
+font-family: sans-serif;
+font-style: normal;
+text-shadow: none;
+}
+
+#decriptors{
+	position: fixed;
+	width: 350px;
+	text-align: center;
+}
+.col-md-4{
+	font-size: 1.2em;	
+	font-family: 'Amaranth', sans-serif;
+	font-style:italic;
+	color: black;
+	text-align: center;
+}
+
