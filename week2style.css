@@ -25,10 +25,10 @@ p{
 }
 
 .jumbotron{
-	background-image: url(weddinglandscape.jpg);
+	background-image: url(landingpage.jpg);
 	font-family: 'Amaranth', sans-serif;
 	font-style:italic;
-	color: white;
+	color: black;
 	border-style: none;
 	background-size: 100%;
 	background-position: center;

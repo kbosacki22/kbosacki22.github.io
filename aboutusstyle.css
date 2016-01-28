@@ -1,0 +1,52 @@
+body {
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background-color: white;
+  background-size: 100%;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 20px auto 20px auto;
+}
+h1 {
+ color: black;
+ font-size: 3em;
+ text-align: center;
+}
+
+.container{
+	background-color: rgb(236, 242, 238);
+}
+h2{
+	color: black;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+img {
+	width: 300px;
+	text-align: center;
+	border-color: teal;
+	border-style: double;
+}
+
+#logo {
+	vertical-align: center;
+	text-align: center;
+}
+
+.headerrow{
+	color:black;
+	font-size: 1.5em;
+	text-align: center;
+	border-color:none;
+}
+
+.table{
+	color: black;
+}
+.navbar{
+	background-color: white;
+	color: black;
+}

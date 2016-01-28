@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Report</title>
+<meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="weather.js"></script>
+  <style>
+      #map {
+        width: 500px;
+        height: 400px;
+        background-color: #CCC
+      }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h3><a href="#" class="btn btn-primary get-the-weather">Get the weather</a></h3>
+    <div class="weather-report"></div>
+  </div>
+
+
+<div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 39.629762, lng: -105.358041},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+
+</body>
+
+</html>
+
