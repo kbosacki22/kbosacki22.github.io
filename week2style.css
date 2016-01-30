@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
- color: white;
+ color: black;
  font-size: 3em;
  text-align: center;
  font-family: 'Amaranth', sans-serif;
@@ -58,3 +58,10 @@ text-shadow: none;
 	text-align: center;
 }
 
+#kyndl{
+	width:350px;
+	border-radius: 50%;
+	text-align: center;
+	-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+	}
