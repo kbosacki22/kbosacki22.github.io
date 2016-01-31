@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Weather Report</title>
-<meta charset="UTF-8">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rosemary Ranch</title>
+    <!-- Bootstrap and jQuery -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="week2style.css">
+  <link href='https://fonts.googleapis.com/css?family=Amaranth:700italic' rel='stylesheet' type='text/css'>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="weather.js"></script>
-  <style>
-      #map {
-        width: 500px;
-        height: 400px;
-        background-color: #CCC
-      }
-    </style>
-</head>
-
-<body>
-<div class="container">
+    <script src="weddings.js"></script>
+    <!-- My own styles -->
+    
+  </head>
+  <body>
+  <div class="container">
   <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,32 +43,31 @@
             <li><a href="http://www.myfitnesspal.com/">Nutrition</a></li>
             
           </ul>
-        <li><a href="weddings.html">Weddings and events</a></li>
+        <li class="active"><a href="weddings.html">Weddings and events</a></li>
           
-        <li class="active"><a href="location.html">Location</a></li>
+        <li><a href="location.html">Location</a></li>
         <li><a href="mailto:kyndl.bosacki@gmail.com">Contact</a></li>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
-    <h3><a href="#" class="btn btn-primary get-the-weather">Get the weather</a></h3>
-    <div class="weather-report"></div>
-  </div>
 
 
-<div id="map"></div>
-    <script>
-      function initMap() {
-        var mapDiv = document.getElementById('map');
-        var map = new google.maps.Map(mapDiv, {
-          center: {lat: 39.629762, lng: -105.358041},
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-        async defer></script>
+  </div><!-- /.container-fluid -->
+</nav>
 
-</body>
+    <div class="container">
+      <h1 class="title">
+          
+      <h1>Weddings</h1>
+       
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/onunI7e5DpE" frameborder="0" allowfullscreen></iframe>
+        
+      </h1>
 
+      <h2>Congratulations! Here's a quick check list to help you get started with planning</h2>
+      <a id="do-something" class="btn btn-success" href="http://google.com">Click Me</a> 
+
+      </div>
+    </div>
+  </body>
 </html>
-
