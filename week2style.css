@@ -76,3 +76,9 @@ h2{
 	-webkit-filter: grayscale(100%);
 filter: grayscale(100%);
 }
+
+.click-me{
+	background-color:white;
+	color:black;
+	font-size: 1.25em;
+}
